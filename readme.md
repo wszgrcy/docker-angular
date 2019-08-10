@@ -15,9 +15,9 @@
 - 根据dockerfile build
 - 将源码目录挂载在/data上
 - 进入容器后
-> cd /data
-> yarn
-> cd /scripts
->  ./build-packages-dist.sh(可能拼错了.....)
+> cd /data (如果没源码需要先克隆源码)
+> yarn 
+> cd /scripts 
+> ./build-packages-dist.sh
 # 缺点
 - 编译出来我不知道怎么用.........
